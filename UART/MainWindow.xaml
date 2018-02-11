@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UART"
         mc:Ignorable="d"
-        Icon="Icons/usb1.png"
+        Icon="Icons/usb3.png"
         Title="UART to USB" Height="350" Width="525">
     <Grid>
         

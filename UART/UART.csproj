@@ -99,9 +99,14 @@
       <Name>LibUART</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Icons\usb2.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\usb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\usb3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
