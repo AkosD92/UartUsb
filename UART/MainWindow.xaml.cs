@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using LibUART;
+
 namespace UART
 {
  
@@ -29,6 +31,31 @@ namespace UART
             SendStat.Foreground = Brushes.Orange;
 
             BtnSend.IsEnabled = false;
+
+            string[] AvailableComports = Connection.GetComPorts();
+            foreach (string s in AvailableComports)
+            {
+                Comports.Items.Add(s);
+            }
+        }
+
+        private void BtnCheck_Click(object sender, RoutedEventArgs e)
+        {
+            string selectedPort = Convert.ToString(Comports.Text);
+            Connection.STATE_en isInitSucceeded = Connection.InitSerialPort(selectedPort);
+
+            if (isInitSucceeded == Connection.STATE_en.PASS)
+            {
+                StatusText.Text = "PASS";
+                StatusText.Foreground = Brushes.Green;
+                BtnSend.IsEnabled = true;
+            }
+            else if (isInitSucceeded == Connection.STATE_en.FAIL)
+            {
+                StatusText.Text = "FAIL";
+                StatusText.Foreground = Brushes.Red;
+            }
+
         }
     }
 }

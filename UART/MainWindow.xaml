@@ -11,9 +11,10 @@
     <Grid>
         <GroupBox Header="1. Check connection" HorizontalAlignment="Left" Height="117" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" FontSize="14">
             <Grid>
-                <Button Name="BtnCheck" Content="Check" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" VerticalAlignment="Top" Width="240" FontSize="18"/>
+                <Button Name="BtnCheck" Content="Check" HorizontalAlignment="Left" Height="35" Margin="120,10,0,0" VerticalAlignment="Top" Width="130" FontSize="18" Click="BtnCheck_Click"/>
                 <TextBlock HorizontalAlignment="Left" Height="29" Margin="10,56,0,0" TextWrapping="Wrap" Text="Connection:" VerticalAlignment="Top" Width="120" FontSize="20"/>
                 <TextBlock Name="StatusText" HorizontalAlignment="Left" Height="29" Margin="130,56,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="20"/>
+                <ComboBox Name="Comports"  HorizontalAlignment="Left" Height="33" Margin="10,12,0,0" VerticalAlignment="Top" Width="105" FontSize="18"/>
 
 
             </Grid>
