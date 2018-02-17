@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LibUART
 {
-    public class Connection
+    public static class Connection
     {
+        public enum STATE_en {FAIL, PASS, UNEXPECTED};
+
+
+
+
     }
 }

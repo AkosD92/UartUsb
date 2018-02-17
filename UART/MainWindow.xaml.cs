@@ -15,14 +15,20 @@ using System.Windows.Shapes;
 
 namespace UART
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+ 
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+
+            StatusText.Text = "N/A";
+            StatusText.Foreground = Brushes.Orange;
+
+            SendStat.Text = "Not Sent";
+            SendStat.Foreground = Brushes.Orange;
+
+            BtnSend.IsEnabled = false;
         }
     }
 }
