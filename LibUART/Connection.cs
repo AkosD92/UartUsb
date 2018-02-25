@@ -9,6 +9,9 @@ namespace LibUART
 {
     public static class Connection
     {
+        public static string ToLine1;
+        public static string ToLine2;
+
         public enum STATE_en {FAIL, PASS, UNEXPECTED};
 
         static SerialPort ComPort = new SerialPort();
@@ -25,9 +28,7 @@ namespace LibUART
             ComPort.ReadTimeout = 500;
             ComPort.WriteTimeout = 500;
 
-            ComPort.Open();
-            ComPort.Write("H");
-            ComPort.Close();
+          
 
             return STATE_en.PASS;
 
@@ -36,6 +37,14 @@ namespace LibUART
         public static string[] GetComPorts()
         {
             return SerialPort.GetPortNames();
+        }
+
+        public static void WriteMessage()
+        {
+            ComPort.Open();
+            ComPort.WriteLine(ToLine1);
+            ComPort.WriteLine(ToLine2);
+            ComPort.Close();
         }
     }
 }

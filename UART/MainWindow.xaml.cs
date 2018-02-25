@@ -27,9 +27,6 @@ namespace UART
             StatusText.Text = "N/A";
             StatusText.Foreground = Brushes.Orange;
 
-            SendStat.Text = "Not Sent";
-            SendStat.Foreground = Brushes.Orange;
-
             BtnSend.IsEnabled = false;
 
             string[] AvailableComports = Connection.GetComPorts();
@@ -55,6 +52,18 @@ namespace UART
                 StatusText.Text = "FAIL";
                 StatusText.Foreground = Brushes.Red;
             }
+
+        }
+
+        private void BtnSend_Click(object sender, RoutedEventArgs e)
+        {
+            string selectedPort = Convert.ToString(Comports.Text);
+
+            Connection.ToLine1 = Line1.Text;
+            Connection.ToLine2 = Line2.Text;
+
+            Connection.InitSerialPort(selectedPort);
+            Connection.WriteMessage();
 
         }
     }
