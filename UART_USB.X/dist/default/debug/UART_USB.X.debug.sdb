@@ -1,0 +1,142 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 D:\Program Files\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"23 D:\Dropbox\UartUsb\UART_USB.X\SW/AppMain.c
+[v _tc_int tc_int `II(v  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+"72
+[v _mainInit mainInit `(v  1 e 1 0 ]
+"5 D:\Dropbox\UartUsb\UART_USB.X\SW/LcdDriver.c
+[v _WriteLine1 WriteLine1 `(v  1 e 1 0 ]
+"56
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"99
+[v _lcdBe lcdBe `(v  1 e 1 0 ]
+"8 D:\Dropbox\UartUsb\UART_USB.X\SW/UartDriver.c
+[v _uartInit uartInit `(v  1 e 1 0 ]
+[s S122 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"305 D:\Program Files\Microchip\xc8\v1.44\include\pic16f887.h
+[u S131 . 1 `S122 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES131  1 e 1 @7 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S19 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"480
+[s S28 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S33 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES33  1 e 1 @11 ]
+"1138
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S100 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1555
+[u S109 . 1 `S100 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES109  1 e 1 @135 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S69 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1716
+[u S77 . 1 `S69 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES77  1 e 1 @140 ]
+"2640
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3646
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"3740
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3966
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"4022
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"4058
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"19 D:\Dropbox\UartUsb\UART_USB.X\SW/AppMain.c
+[v _ReceivedString ReceivedString `[16]uc  1 e 16 0 ]
+"20
+[v _isReceived isReceived `uc  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+{
+"70
+} 0
+"8 D:\Dropbox\UartUsb\UART_USB.X\SW/UartDriver.c
+[v _uartInit uartInit `(v  1 e 1 0 ]
+{
+"29
+} 0
+"72 D:\Dropbox\UartUsb\UART_USB.X\SW/AppMain.c
+[v _mainInit mainInit `(v  1 e 1 0 ]
+{
+"79
+} 0
+"56 D:\Dropbox\UartUsb\UART_USB.X\SW/LcdDriver.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"95
+} 0
+"99
+[v _lcdBe lcdBe `(v  1 e 1 0 ]
+{
+"106
+} 0
+"5
+[v _WriteLine1 WriteLine1 `(v  1 e 1 0 ]
+{
+"16
+[v WriteLine1@i i `i  1 a 2 3 ]
+"5
+[v WriteLine1@txt1 txt1 `*.26uc  1 p 2 5 ]
+"29
+} 0
+"23 D:\Dropbox\UartUsb\UART_USB.X\SW/AppMain.c
+[v _tc_int tc_int `II(v  1 e 1 0 ]
+{
+"36
+} 0

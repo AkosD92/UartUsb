@@ -1,0 +1,6 @@
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\bin\Debug\LibUART.dll
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\bin\Debug\LibUART.pdb
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\obj\Debug\LibUART.csprojResolveAssemblyReference.cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\obj\Debug\LibUART.csproj.CoreCompileInputs.cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\obj\Debug\LibUART.dll
+D:\Dropbox\UartUsb\UART_USB_CS\UART\LibUART\obj\Debug\LibUART.pdb

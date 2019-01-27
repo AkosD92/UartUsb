@@ -1,0 +1,17 @@
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\bin\Debug\UART.exe.config
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\bin\Debug\UART.exe
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\bin\Debug\UART.pdb
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\bin\Debug\LibUART.dll
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\bin\Debug\LibUART.pdb
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.csprojResolveAssemblyReference.cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\MainWindow.g.cs
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\App.g.cs
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART_MarkupCompile.cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART_MarkupCompile.lref
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\MainWindow.baml
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.g.resources
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.Properties.Resources.resources
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.csproj.GenerateResource.Cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.csproj.CoreCompileInputs.cache
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.exe
+D:\Dropbox\UartUsb\UART_USB_CS\UART\UART\obj\Debug\UART.pdb
